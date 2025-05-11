@@ -1,0 +1,45 @@
+# 📚 WebApp de gestion de livres (CRUD + Auth)
+
+Une application web fullstack permettant aux utilisateurs de s'inscrire, se connecter, puis gérer une liste de livres avec les opérations CRUD (Créer, Lire, Mettre à jour, Supprimer).
+
+## 🧰 Technologies
+
+- **Frontend** : React, Axios
+- **Backend** : Node.js, Express, MongoDB, JWT, Bcrypt
+- **Base de données** : MongoDB
+- **Authentification** : JSON Web Tokens (JWT)
+
+
+## 🎯 Fonctionnalités principales
+
+- 🔐 Inscription et connexion des utilisateurs
+- 🔁 Authentification sécurisée via JWT
+- 📗 Ajout, édition, suppression et consultation de livres
+- 🔍 Recherche et tri de livres (par titre, auteur, etc.)
+- 🧑‍💻 Interface utilisateur responsive avec React
+- 🛡️ Middleware de protection des routes privées
+- 📝 Validation des données côté serveur
+
+## 🚀 Installation
+
+### 📦 1. Cloner le projet
+
+```bash
+git 
+cd LIVRES EN LIGNE 
+
+### 2.Installer les dépendances
+Backend :
+            cd backend
+            npm install
+
+
+frontend :
+            cd ../frontend
+            npm install
+
+#### 3. Lancer les serveurs
+npm run dev
+
+
+
